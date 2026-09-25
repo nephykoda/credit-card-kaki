@@ -1,0 +1,9 @@
+{
+  "issuer": "ocbc",
+  "displayName": "OCBC Bank",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "OCBC Cardmembers Agreement", "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-cardmembers-agreement.pdf" },
+    { "type": "fees-summary", "label": "OCBC Credit & Plus! Debit Card Summary of Terms", "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-card-and-plus-debit-card-summary-of-terms.pdf" }
+  ],
+  "cards": []
+}

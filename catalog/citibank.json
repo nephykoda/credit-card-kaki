@@ -1,0 +1,8 @@
+{
+  "issuer": "citibank",
+  "displayName": "Citi Singapore",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "Citibank Visa/Mastercard Cardmember's Agreement", "url": "https://www.citibank.com.sg/pdf/2025/0225/Cardmembers_Agreement.pdf" }
+  ],
+  "cards": []
+}

@@ -1,0 +1,32 @@
+{
+  "issuer": "dbs",
+  "displayName": "DBS / POSB",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "DBS Cardmember's Agreement & Conditions of Use", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/dbs-agreement-2019.pdf" },
+    { "type": "rewards-programme", "label": "DBS Rewards Programme Terms & Conditions", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf" },
+    { "type": "loyalty-dollar", "label": "DBS Cards Loyalty Dollar T&C", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/dbs_cards_loyalty_dollar_tnc.pdf" }
+  ],
+  "cards": [
+    {
+      "id": "posb-everyday",
+      "name": "POSB Everyday Card",
+      "docs": [
+        { "type": "card-tnc", "label": "POSB Everyday Card Agreement", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/posb-cards-terms-conditions/posb-everyday-card-agreement.pdf" }
+      ]
+    },
+    {
+      "id": "safra-dbs",
+      "name": "SAFRA DBS Credit Card (co-brand)",
+      "docs": [
+        { "type": "rewards-tnc", "label": "SAFRA DBS Credit Card Cash Rebate Programme T&C", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/safra-dbs-credit-card-cash-rebate-programme-tnc.pdf" }
+      ]
+    },
+    {
+      "id": "live-fresh",
+      "name": "DBS Live Fresh Card",
+      "docs": [
+        { "type": "card-tnc", "label": "Live Fresh Cardmembers Important Notes", "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/live-fresh-dbs-visa-paywave-platinum-card/live-fresh-student-cardmembers-important-notes.pdf" }
+      ]
+    }
+  ]
+}

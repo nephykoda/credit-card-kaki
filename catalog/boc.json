@@ -1,0 +1,16 @@
+{
+  "issuer": "boc",
+  "displayName": "Bank of China Singapore",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "BOC Cardmember Agreement (Personal Card)", "url": "https://pic.bankofchina.com/bocappd/singapore/201605/P020160516533644126880.pdf" }
+  ],
+  "cards": [
+    {
+      "id": "boc-zaobao",
+      "name": "BOC Zaobao Credit Card (co-brand)",
+      "docs": [
+        { "type": "card-tnc", "label": "T&C Governing BOC Zaobao Credit Card Programme", "url": "https://pic.bankofchina.com/bocappd/singapore/202502/P020250228517821549816.pdf" }
+      ]
+    }
+  ]
+}

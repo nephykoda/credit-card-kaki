@@ -1,0 +1,28 @@
+{
+  "issuer": "amex",
+  "displayName": "American Express Singapore",
+  "issuerDocs": [],
+  "cards": [
+    {
+      "id": "amex-rewards",
+      "name": "Amex Rewards Card",
+      "docs": [
+        { "type": "card-tnc", "label": "Amex Rewards Card Terms and Conditions", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/rewards-card.pdf" }
+      ]
+    },
+    {
+      "id": "amex-gold",
+      "name": "Amex Gold Card",
+      "docs": [
+        { "type": "card-tnc", "label": "Amex Gold Card Terms", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/gold-card.pdf" }
+      ]
+    },
+    {
+      "id": "amex-platinum-reserve",
+      "name": "Amex Platinum Reserve Credit Card",
+      "docs": [
+        { "type": "card-tnc", "label": "Amex Platinum Reserve Credit Card Terms", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-reserve-credit-card.pdf" }
+      ]
+    }
+  ]
+}

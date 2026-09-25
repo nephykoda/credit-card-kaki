@@ -1,0 +1,9 @@
+{
+  "issuer": "trust",
+  "displayName": "Trust Bank Singapore",
+  "issuerDocs": [
+    { "type": "product-terms", "label": "Trust Freedom Credit Card Product Terms", "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/" },
+    { "type": "general-tc", "label": "Trust Bank General Terms and Conditions", "url": "https://trustbank.sg/legal/general-terms-and-conditions/" }
+  ],
+  "cards": []
+}

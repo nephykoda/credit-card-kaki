@@ -1,0 +1,8 @@
+{
+  "issuer": "stanchart",
+  "displayName": "Standard Chartered Singapore",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "Standard Chartered Credit Card Terms & Conditions", "url": "https://av.sc.com/sg/content/docs/scb-cc-tc.pdf" }
+  ],
+  "cards": []
+}

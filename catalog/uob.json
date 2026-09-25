@@ -1,0 +1,16 @@
+{
+  "issuer": "uob",
+  "displayName": "United Overseas Bank",
+  "issuerDocs": [
+    { "type": "cardmember-agreement", "label": "UOB Cardmembers Agreement (index)", "url": "https://www.uob.com.sg/personal/cards/credit-cards/terms-and-conditions.page" }
+  ],
+  "cards": [
+    {
+      "id": "uob-one",
+      "name": "UOB One Card",
+      "docs": [
+        { "type": "card-tnc", "label": "Terms and Conditions Governing UOB ONE Card", "url": "https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf" }
+      ]
+    }
+  ]
+}

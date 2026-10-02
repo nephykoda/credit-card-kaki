@@ -2,14 +2,66 @@
   "issuer": "hsbc",
   "displayName": "HSBC Singapore",
   "issuerDocs": [
-    { "type": "cardholder-agreement", "label": "HSBC Credit Card Cardholder Agreement", "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/cardholder-agreement.pdf" }
+    {
+      "type": "cardholder-agreement",
+      "label": "HSBC Credit Card Cardholder Agreement",
+      "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/cardholder-agreement.pdf"
+    }
   ],
   "cards": [
     {
       "id": "hsbc-premier-mastercard",
       "name": "HSBC Premier World Mastercard",
       "docs": [
-        { "type": "card-tnc", "label": "Premier Mastercard T&Cs (19 Aug 2025)", "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/premier-mastercard/pmc-tncs-19-aug-2025.pdf" }
+        {
+          "type": "card-tnc",
+          "label": "Premier Mastercard T&Cs (19 Aug 2025)",
+          "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/premier-mastercard/pmc-tncs-19-aug-2025.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hsbc-revolution",
+      "name": "HSBC Revolution Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "HSBC Revolution Credit Card Reward Points Terms and Conditions",
+          "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hsbc-liveplus",
+      "name": "HSBC Live+ Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "HSBC Live+ Credit Card Cashback Programme Terms and Conditions",
+          "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hsbc-travelone",
+      "name": "HSBC TravelOne Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "HSBC TravelOne Credit Card Reward Points Programme Terms and Conditions",
+          "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hsbc-advance",
+      "name": "HSBC Advance Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing HSBC Advance Credit Card Cashback Programme",
+          "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/terms-and-conditions-governing-advance-credit-card-cashback-programme.pdf"
+        }
       ]
     }
   ]

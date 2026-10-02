@@ -2,7 +2,100 @@
   "issuer": "citibank",
   "displayName": "Citi Singapore",
   "issuerDocs": [
-    { "type": "cardmember-agreement", "label": "Citibank Visa/Mastercard Cardmember's Agreement", "url": "https://www.citibank.com.sg/pdf/2025/0225/Cardmembers_Agreement.pdf" }
+    {
+      "type": "cardmember-agreement",
+      "label": "Citibank Visa/Mastercard Cardmember's Agreement",
+      "url": "https://www.citibank.com.sg/pdf/2025/0225/Cardmembers_Agreement.pdf"
+    }
   ],
-  "cards": []
+  "cards": [
+    {
+      "id": "citi-premiermiles-card",
+      "name": "Citi PremierMiles Card (World Select Mastercard)",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-rewards-card",
+      "name": "Citi Rewards Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-prestige-card",
+      "name": "Citi Prestige Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-cash-back-plus-card",
+      "name": "Citi Cash Back+ Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cashback-plus-card-members-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-cash-back-card",
+      "name": "Citi Cash Back Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-visa-mastercard-card/pdf/members-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-smrt-card",
+      "name": "Citi SMRT Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-cardmembers-agreement.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-m1-card",
+      "name": "Citi M1 Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "citi-clear-card",
+      "name": "Citi Clear Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Cardmember's Agreement",
+          "url": "https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf"
+        }
+      ]
+    }
+  ]
 }

@@ -7,21 +7,99 @@
       "id": "amex-rewards",
       "name": "Amex Rewards Card",
       "docs": [
-        { "type": "card-tnc", "label": "Amex Rewards Card Terms and Conditions", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/rewards-card.pdf" }
+        {
+          "type": "card-tnc",
+          "label": "Amex Rewards Card Terms and Conditions",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/rewards-card.pdf"
+        }
       ]
     },
     {
       "id": "amex-gold",
       "name": "Amex Gold Card",
       "docs": [
-        { "type": "card-tnc", "label": "Amex Gold Card Terms", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/gold-card.pdf" }
+        {
+          "type": "card-tnc",
+          "label": "Amex Gold Card Terms",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/gold-card.pdf"
+        }
       ]
     },
     {
       "id": "amex-platinum-reserve",
       "name": "Amex Platinum Reserve Credit Card",
       "docs": [
-        { "type": "card-tnc", "label": "Amex Platinum Reserve Credit Card Terms", "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-reserve-credit-card.pdf" }
+        {
+          "type": "card-tnc",
+          "label": "Amex Platinum Reserve Credit Card Terms",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-reserve-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-platinum-credit-card",
+      "name": "The American Express Platinum Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-krisflyer",
+      "name": "The American Express Singapore Airlines KrisFlyer Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-krisflyer-ascend",
+      "name": "The American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-true-cashback",
+      "name": "The American Express True Cashback Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-pps-club",
+      "name": "The American Express Singapore Airlines PPS Club Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/pps-club-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amex-solitaire-pps",
+      "name": "The American Express Singapore Airlines Solitaire PPS Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Card Member Agreement & Benefits T&Cs",
+          "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/solitaire-pps-credit-card.pdf"
+        }
       ]
     }
   ]

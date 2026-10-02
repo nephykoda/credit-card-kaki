@@ -1,4 +1,4 @@
-# sg-cards
+# credit-card-kaki
 
 Local, versioned archive of **Singapore credit card terms & conditions** — all 11 issuers — with fast full-text search and silent-change detection, packaged as an [Agent Skills](https://agentskills.io) plugin that works with any agent harness that can run shell commands.
 
@@ -8,7 +8,7 @@ Local, versioned archive of **Singapore credit card terms & conditions** — all
 - Banks **update T&Cs silently** — holders rarely notice.
 - Comparison sites show marketing rates, not the fine print (caps, exclusions, minimum spends).
 
-sg-cards fixes all three: every card's governing documents archived locally, **every version kept forever** (so "what changed over time" is answerable), and freshness verified by **hash, not by search** — conditional HTTP GETs detect even unannounced same-URL edits.
+credit-card-kaki fixes all three: every card's governing documents archived locally, **every version kept forever** (so "what changed over time" is answerable), and freshness verified by **hash, not by search** — conditional HTTP GETs detect even unannounced same-URL edits.
 
 ## Install (per harness)
 
@@ -16,7 +16,7 @@ Clone the repo, then point your harness at the folder:
 
 | Harness | How |
 |---|---|
-| pi | add path to `skills` in settings, or copy to `~/.pi/agent/skills/sg-cards/` |
+| pi | add path to `skills` in settings, or copy to `~/.pi/agent/skills/credit-card-kaki/` |
 | Claude Code | `cp -r` into `~/.claude/skills/` |
 | Codex | `cp -r` into `$CODEX_HOME/skills/` |
 | OpenClaw | copy into your OpenClaw workspace skills dir (or `openclaw migrate`) |

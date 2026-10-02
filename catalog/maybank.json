@@ -2,7 +2,11 @@
   "issuer": "maybank",
   "displayName": "Maybank Singapore",
   "issuerDocs": [
-    { "type": "cardmember-agreement", "label": "Maybank Personal Credit Card Agreement", "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/personal-credit-card-tnc.pdf" }
+    {
+      "type": "cardmember-agreement",
+      "label": "Maybank Personal Credit Card Agreement",
+      "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/personal-credit-card-tnc.pdf"
+    }
   ],
   "cards": []
 }

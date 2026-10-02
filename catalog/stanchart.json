@@ -2,7 +2,111 @@
   "issuer": "stanchart",
   "displayName": "Standard Chartered Singapore",
   "issuerDocs": [
-    { "type": "cardmember-agreement", "label": "Standard Chartered Credit Card Terms & Conditions", "url": "https://av.sc.com/sg/content/docs/scb-cc-tc.pdf" }
+    {
+      "type": "cardmember-agreement",
+      "label": "Standard Chartered Credit Card Terms & Conditions",
+      "url": "https://av.sc.com/sg/content/docs/scb-cc-tc.pdf"
+    }
   ],
-  "cards": []
+  "cards": [
+    {
+      "id": "sc-simply-cash-card",
+      "name": "Standard Chartered Simply Cash Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Simply Cash Credit Card Terms and Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sg-simply-cash-card-terms-and-conditions.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-beyond-card",
+      "name": "Standard Chartered Beyond Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Beyond Credit Card Terms and Conditions",
+          "url": "https://www.sc.com/sg/terms-and-conditions/beyond-credit-card-tnc/"
+        }
+      ]
+    },
+    {
+      "id": "sc-journey-card",
+      "name": "Standard Chartered Journey Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Journey Credit Card Terms and Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sg-journey-credit-card-terms-and-conditions.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-priority-visa-infinite-card",
+      "name": "Standard Chartered Priority Banking Visa Infinite Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Priority Banking Visa Infinite Card Terms and Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sg-pbvi-tnc-full.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-rewards-plus-card",
+      "name": "Standard Chartered Rewards+ Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Rewards+ Card Terms and Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sg-rewards-full-tcs-final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-smart-card",
+      "name": "Standard Chartered Smart Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Smart Credit Card Terms and Conditions",
+          "url": "https://av.sc.com/sg/content/docs/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-prudential-platinum-card",
+      "name": "Standard Chartered Prudential Platinum Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Prudential Platinum and Prudential Visa Signature Credit Card Terms & Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sc-visa-cc-tc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-prudential-visa-signature-card",
+      "name": "Standard Chartered Prudential Visa Signature Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Prudential Platinum and Prudential Visa Signature Credit Card Terms & Conditions",
+          "url": "https://av.sc.com/sg/content/docs/sc-visa-cc-tc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sc-nus-alumni-platinum-card",
+      "name": "Standard Chartered NUS Alumni Platinum Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Standard Chartered Credit Card Terms and Conditions (general, shared with issuer-level doc)",
+          "url": "https://av.sc.com/sg/content/docs/scb-cc-tc.pdf"
+        }
+      ]
+    }
+  ]
 }

@@ -2,8 +2,143 @@
   "issuer": "ocbc",
   "displayName": "OCBC Bank",
   "issuerDocs": [
-    { "type": "cardmember-agreement", "label": "OCBC Cardmembers Agreement", "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-cardmembers-agreement.pdf" },
-    { "type": "fees-summary", "label": "OCBC Credit & Plus! Debit Card Summary of Terms", "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-card-and-plus-debit-card-summary-of-terms.pdf" }
+    {
+      "type": "cardmember-agreement",
+      "label": "OCBC Cardmembers Agreement",
+      "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-cardmembers-agreement.pdf"
+    },
+    {
+      "type": "fees-summary",
+      "label": "OCBC Credit & Plus! Debit Card Summary of Terms",
+      "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/ocbc-credit-card-and-plus-debit-card-summary-of-terms.pdf"
+    }
   ],
-  "cards": []
+  "cards": [
+    {
+      "id": "ocbc-90n",
+      "name": "OCBC 90°N Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing OCBC 90°N Card Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-nxt",
+      "name": "OCBC NXT Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the OCBC NXT Card",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-infinity-cashback",
+      "name": "OCBC INFINITY Cashback Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing OCBC INFINITY Cashback Card Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-365",
+      "name": "OCBC 365 Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the OCBC 365 Credit Card Cashback Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-rewards",
+      "name": "OCBC Rewards Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the OCBC Rewards Card (and Titanium Rewards) Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-frank",
+      "name": "OCBC FRANK Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing OCBC FRANK Credit Card",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-voyage",
+      "name": "OCBC VOYAGE Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the VOYAGE Credit Card Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-platinum",
+      "name": "OCBC Platinum Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing OCBC$ Rewards Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbcdollar-rewards-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-ge-cashflo",
+      "name": "OCBC Great Eastern Cashflo Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the Great Eastern Cashflo Credit Card (w.e.f. 1 Apr 2021)",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ocbc-arts",
+      "name": "OCBC Arts Credit Card",
+      "docs": [
+        {
+          "type": "cardmember-agreement",
+          "label": "OCBC Credit Cardmembers Agreement",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/cm_agreement.pdf"
+        },
+        {
+          "type": "rewards-tnc",
+          "label": "Terms and Conditions Governing OCBC$ Rewards Programme",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbcdollar-rewards-programme.pdf"
+        }
+      ]
+    },
+    {
+      "id": "best-ocbc",
+      "name": "BEST-OCBC Credit Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing the BEST-OCBC Credit Card Programme (w.e.f. 1 Jul 2025)",
+          "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-best-ocbc-cc-programme-wef1jul25.pdf"
+        }
+      ]
+    }
+  ]
 }

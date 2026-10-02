@@ -2,14 +2,88 @@
   "issuer": "boc",
   "displayName": "Bank of China Singapore",
   "issuerDocs": [
-    { "type": "cardmember-agreement", "label": "BOC Cardmember Agreement (Personal Card)", "url": "https://pic.bankofchina.com/bocappd/singapore/201605/P020160516533644126880.pdf" }
+    {
+      "type": "cardmember-agreement",
+      "label": "BOC Cardmember Agreement (Personal Card)",
+      "url": "https://pic.bankofchina.com/bocappd/singapore/201605/P020160516533644126880.pdf"
+    }
   ],
   "cards": [
     {
       "id": "boc-zaobao",
       "name": "BOC Zaobao Credit Card (co-brand)",
       "docs": [
-        { "type": "card-tnc", "label": "T&C Governing BOC Zaobao Credit Card Programme", "url": "https://pic.bankofchina.com/bocappd/singapore/202502/P020250228517821549816.pdf" }
+        {
+          "type": "card-tnc",
+          "label": "T&C Governing BOC Zaobao Credit Card Programme",
+          "url": "https://pic.bankofchina.com/bocappd/singapore/202502/P020250228517821549816.pdf"
+        }
+      ]
+    },
+    {
+      "id": "boc-splendorplus",
+      "name": "BOC SplendorPlus Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC SplendorPlus Card Cash Rebate Programme",
+          "url": "https://www.bankofchina.com/sg/bcservice/bc1/202409/P020241008640591187237.pdf"
+        }
+      ]
+    },
+    {
+      "id": "boc-elite-miles-world-mastercard",
+      "name": "BOC Elite Miles World Mastercard",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC Elite Miles World MasterCard Programme",
+          "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201810/t20181009_15906464.html"
+        }
+      ]
+    },
+    {
+      "id": "boc-nvmo",
+      "name": "BOC NVMO Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC NVMO Credit Card Cashback Programme",
+          "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201605/t20160503_6891769.html"
+        }
+      ]
+    },
+    {
+      "id": "boc-visa-infinite",
+      "name": "BOC Visa Infinite Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC Visa Infinite Card Programme",
+          "url": "https://www.bankofchina.com/sg/bocinfo/bi5/202506/t20250613_25381581.html"
+        }
+      ]
+    },
+    {
+      "id": "boc-sheng-siong",
+      "name": "BOC Sheng Siong Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC Sheng Siong Card Programme",
+          "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201707/t20170719_9812834.html"
+        }
+      ]
+    },
+    {
+      "id": "boc-f1rst",
+      "name": "BOC F1RST Card",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "Terms and Conditions Governing BOC F1RST Card Cash Rebate Programme",
+          "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201612/t20161231_8670239.html"
+        }
       ]
     }
   ]

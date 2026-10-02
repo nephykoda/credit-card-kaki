@@ -2,8 +2,34 @@
   "issuer": "trust",
   "displayName": "Trust Bank Singapore",
   "issuerDocs": [
-    { "type": "product-terms", "label": "Trust Freedom Credit Card Product Terms", "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/" },
-    { "type": "general-tc", "label": "Trust Bank General Terms and Conditions", "url": "https://trustbank.sg/legal/general-terms-and-conditions/" }
+    {
+      "type": "general-tc",
+      "label": "Trust Bank General Terms and Conditions",
+      "url": "https://trustbank.sg/legal/general-terms-and-conditions/"
+    }
   ],
-  "cards": []
+  "cards": [
+    {
+      "id": "trust-freedom",
+      "name": "Trust Freedom Credit Card",
+      "docs": [
+        {
+          "type": "product-terms",
+          "label": "Trust Freedom Credit Card Product Terms",
+          "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/"
+        }
+      ]
+    },
+    {
+      "id": "trust-link",
+      "name": "Trust Link Credit Card",
+      "docs": [
+        {
+          "type": "product-terms",
+          "label": "Trust Link Credit Card and NTUC Link Credit Card Product Terms",
+          "url": "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/"
+        }
+      ]
+    }
+  ]
 }

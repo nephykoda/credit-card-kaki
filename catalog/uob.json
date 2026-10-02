@@ -29,7 +29,39 @@
           "label": "Terms and Conditions Governing UOB Absolute Cashback Card",
           "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "cashback",
+        "baseRate": {
+          "value": 1.7,
+          "unit": "pct",
+          "note": "all local and overseas transactions, no minimum spend, no cap"
+        },
+        "bonusCategories": [
+          {
+            "category": "Grab mobile wallet top-ups (local since 15 Jan 2023; overseas added 4 Sept 2026)",
+            "rate": 0.3,
+            "unit": "pct",
+            "cap": null,
+            "capNote": "reduced from 1.7%"
+          },
+          {
+            "category": "charity, education, government, healthcare/medical, utilities, pet/vet, funeral, real estate rental agents, advertising, employment, consulting, shopping services by MCC (local since 6 May 2024; overseas added 4 Sept 2026)",
+            "rate": 0.3,
+            "unit": "pct",
+            "cap": null,
+            "capNote": "reduced from 1.7%"
+          }
+        ],
+        "milesConversionNote": "n/a (cashback card, no points/miles conversion)",
+        "annualFee": 192.6,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2024/04/02/uob-absolute-card-nerfing-cashback-for-donations-education-healthcare-utilities-and-more/",
+        "milelionLastUpdated": "2024-04-02",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "MileLion article is STALE (Apr 2024): only covers local-transaction MCC exclusions. The T&C PDF shows a newer rule effective 4 Sept 2026 extending the same MCC exclusions plus Grab top-ups to OVERSEAS transactions too, dropping them from 1.7% to 0.3% overseas as well - not reflected in the cited MileLion post. Annual fee from MileLion's 2021 launch post, not independently cross-checked."
+      }
     },
     {
       "id": "uob-evol",
@@ -51,7 +83,60 @@
           "label": "Terms and Conditions Governing UOB PRVI Miles Card",
           "url": "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.4,
+          "unit": "mpd",
+          "note": "local SGD spend (UNI$3.5 per S$5)"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas spend (non-regional FX)",
+            "rate": 2.4,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "uncapped"
+          },
+          {
+            "category": "regional currency spend (IDR, MYR, THB, VND)",
+            "rate": 3,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "uncapped"
+          },
+          {
+            "category": "Agoda hotel bookings via dedicated portal",
+            "rate": 8,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "promo-dependent, base+bonus combined"
+          },
+          {
+            "category": "Expedia hotels/activities/cars via dedicated portal",
+            "rate": 8,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "promo-dependent"
+          },
+          {
+            "category": "Expedia flights via dedicated portal",
+            "rate": 3,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": ""
+          }
+        ],
+        "milesConversionNote": "UNI$1 = 2 miles (confirmed in T&C), conversion fee applies, min transfer 5,000 UNI$",
+        "annualFee": 261.6,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/07/08/review-uob-prvi-miles-card/",
+        "milelionLastUpdated": "2026-07-08",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "Rates and UNI$1=2 miles conversion confirmed exactly in T&C PDF. Annual fee/min income not stated in T&C. AMEX-only fee waiver requires S$50,000 annual spend per T&C clause (xii), not a general waiver."
+      }
     },
     {
       "id": "uob-lazada",
@@ -95,7 +180,39 @@
           "label": "Terms and Conditions for Preferred Visa Card",
           "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 0.4,
+          "unit": "mpd",
+          "note": "other retail / SimplyGo (UNI$1 per S$5), uncapped"
+        },
+        "bonusCategories": [
+          {
+            "category": "mobile contactless (Apple/Google/Samsung Pay etc.)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 600,
+            "capNote": "~S$600/calendar month (bonus UNI$1,080 cap divided by UNI$1.8 bonus per $1)"
+          },
+          {
+            "category": "selected online transactions (groceries, dining, entertainment, shopping)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 600,
+            "capNote": "~S$600/calendar month (bonus UNI$1,080 cap), separate bucket from mobile contactless"
+          }
+        ],
+        "milesConversionNote": "UNI$1 = 2 miles",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/",
+        "milelionLastUpdated": "2026-03-29",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - T&C's UNI$1,080 bonus cap maps exactly to MileLion's S$600 category sub-caps, effective 1 Oct 2025 restructure. Annual fee/min income not in T&C PDF."
+      }
     },
     {
       "id": "uob-visa-signature",
@@ -106,7 +223,39 @@
           "label": "Terms and Conditions Governing UOB Visa Signature Card",
           "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 0.4,
+          "unit": "mpd",
+          "note": "local spend (UNI$1 per S$5), no cap"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas spend (FCY)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 1200,
+            "capNote": "S$1,200/statement month, requires S$1,000 min spend in category to trigger bonus"
+          },
+          {
+            "category": "petrol + contactless (incl. SimplyGo, combined bucket)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 1200,
+            "capNote": "S$1,200/statement month combined, requires S$1,000 min combined spend to trigger bonus"
+          }
+        ],
+        "milesConversionNote": "UNI$1 = 2 miles",
+        "annualFee": 218.0,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/08/10/review-uob-visa-signature-card/",
+        "milelionLastUpdated": "2026-08-10",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - MileLion's two S$1,200 sub-caps with S$1,000 min spend each matched the T&C PDF exactly. Annual fee/min income not in T&C PDF."
+      }
     },
     {
       "id": "uob-krisflyer",
@@ -117,7 +266,46 @@
           "label": "Terms and Conditions Governing KrisFlyer UOB Credit Card",
           "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.2,
+          "unit": "mpd",
+          "note": "all spend, uncapped"
+        },
+        "bonusCategories": [
+          {
+            "category": "Singapore Airlines, Scoot, Kris+, Pelago",
+            "rate": 3,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "uncapped"
+          },
+          {
+            "category": "dining, online shopping, online travel, transport (Accelerated Miles)",
+            "rate": 2.4,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "uncapped total (1.2 base + 1.2 accelerated); requires min S$1,000 SIA Group spend in the card membership year to qualify"
+          },
+          {
+            "category": "KrisShop purchases",
+            "rate": 5,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "3 base tier + up to 2 bonus mpd depending on payment portion"
+          }
+        ],
+        "milesConversionNote": "No UNI$ conversion - KrisFlyer miles awarded directly, credited monthly straight into KrisFlyer account",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/",
+        "milelionLastUpdated": "2026-04-12",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - T&C confirms base 1.2mpd, SIA Group/Scoot/Kris+/Pelago uncapped 3mpd, and Accelerated Miles on dining/shopping/travel/transport totaling 2.4mpd (post May-2025 nerf, down from 3.6mpd), gated on S$1,000 min SIA Group spend. Annual fee/min income not in T&C PDF."
+      }
     },
     {
       "id": "uob-visa-infinite-metal",

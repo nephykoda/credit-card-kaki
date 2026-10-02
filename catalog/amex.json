@@ -67,7 +67,39 @@
           "label": "Card Member Agreement & Benefits T&Cs",
           "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.2,
+          "unit": "mpd",
+          "note": "standard rate on eligible purchases incl. foreign currency spend"
+        },
+        "bonusCategories": [
+          {
+            "category": "Singapore Airlines / Scoot / KrisShop / Pelago",
+            "rate": 2,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "uncapped"
+          },
+          {
+            "category": "Grab Singapore",
+            "rate": 2,
+            "unit": "mpd",
+            "cap": 200,
+            "capNote": "on first S$200 Grab spend per calendar month; excess reverts to base 1.2 mpd"
+          }
+        ],
+        "milesConversionNote": "KrisFlyer miles credited directly to linked KrisFlyer account monthly - no Membership Rewards conversion step and no transfer fee",
+        "annualFee": 397.85,
+        "feeWaiverMinSpend": null,
+        "minIncome": null,
+        "milelionUrl": "https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/",
+        "milelionLastUpdated": "2025-11-22",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - official T&C (pages 3-4) confirms base 1.2 mpd, SIA/Scoot/KrisShop/Pelago bonus 2mpd uncapped, Grab bonus 2mpd capped at S$200/month, matching MileLion exactly. No first-year fee waiver for principal card; min income no longer officially published, left null rather than guessed."
+      }
     },
     {
       "id": "amex-true-cashback",

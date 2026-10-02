@@ -61,7 +61,34 @@
           "label": "DBS Altitude Card Terms & Conditions",
           "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.3,
+          "unit": "mpd",
+          "note": "local spend"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas/foreign currency spend",
+            "rate": 2.2,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "no cap; this is the overseas base rate, not a bonus category"
+          }
+        ],
+        "milesConversionNote": "S$5 local spend = 3.25 DBS Points; S$5 overseas spend = 5.5 DBS Points; 1 DBS Point = 2 miles (conversion fee S$27.25 per transfer)",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": null,
+        "feeWaiverNote": "S$25,000/year spend waiver existed but was discontinued effective 1 Aug 2026; only a 5,000 DBS Points (10,000 miles) renewal bonus remains if fee is paid",
+        "minIncome": 30000,
+        "minIncomeNote": "S$45,000 for non-Singapore Citizens/PRs",
+        "milelionUrl": "https://milelion.com/2026/05/24/review-dbs-altitude-card/",
+        "milelionLastUpdated": "2026-05-24",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - MileLion figures match official T&C PDF exactly"
+      }
     },
     {
       "id": "dbs-vantage",
@@ -77,11 +104,37 @@
           "label": "DBS Vantage Card FAQs",
           "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/vantage-card-FAQs.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.5,
+          "unit": "mpd",
+          "note": "local spend; DROPS to 1.4 mpd from 2 Nov 2026 per official T&C"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas spend",
+            "rate": 2.2,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "no cap; base overseas rate, unchanged by the Nov 2026 revision"
+          }
+        ],
+        "milesConversionNote": "S$5 local spend = 3.75 DBS Points (3.5 Points from 2 Nov 2026); S$5 overseas spend = 5.5 DBS Points; 1 DBS Point = 2 miles OR 1 DBS Point = S$0.02 cashback (switchable monthly via app)",
+        "annualFee": 599.5,
+        "feeWaiverMinSpend": null,
+        "feeWaiverNote": "First-year fee is strictly non-waivable. S$60,000/year spend waiver for subsequent years was discontinued effective 1 Aug 2026; only DBS Treasures customers with Accredited Investor status get a full waiver now (no min spend)",
+        "minIncome": 120000,
+        "milelionUrl": "https://milelion.com/2026/09/29/dbs-vantage-card-cuts-local-earn-rates-to-1-4-mpd-adds-free-limo-rides-and-annual-fee-waiver/",
+        "milelionLastUpdated": "2026-09-29",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none - MileLion's reporting of the 1.5->1.4 mpd local cut (effective 2 Nov 2026) and the Aug 2026 fee-waiver removal both match the official T&C PDF (last updated 25 Sep 2026) verbatim"
+      }
     },
     {
-      "id": "dbs-woman",
-      "name": "DBS Woman's Card / Woman's World Mastercard",
+      "id": "dbs-womans-card",
+      "name": "DBS Woman's Card",
       "docs": [
         {
           "type": "card-tnc",
@@ -89,6 +142,58 @@
           "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf"
         }
       ]
+    },
+    {
+      "id": "dbs-womans-world-card",
+      "name": "DBS Woman's World Card (World Mastercard)",
+      "docs": [
+        {
+          "type": "card-tnc",
+          "label": "DBS Woman's Card Terms & Conditions",
+          "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf"
+        }
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 0.4,
+          "unit": "mpd",
+          "note": "local spend, World Card tier"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas spend (non-online)",
+            "rate": 1.2,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "base + overseas bonus combined; no cap"
+          },
+          {
+            "category": "online spend (local)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 1000,
+            "capNote": "S$1,000 per calendar month combined local+overseas online spend; excess reverts to 0.4 mpd; bonus credited following calendar month"
+          },
+          {
+            "category": "online spend (overseas)",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 1000,
+            "capNote": "shares the same S$1,000/month online cap as local online spend"
+          }
+        ],
+        "milesConversionNote": "S$5 spend = 1 base DBS Point + 2 bonus Points if overseas + 9 (local online) or 7 (overseas online) bonus Points if online, all at 1 DBS Point = 2 miles",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": null,
+        "feeWaiverNote": "First year free. S$25,000/year spend waiver for subsequent years was discontinued effective 1 Aug 2026 (same DBS-wide policy change as Altitude/Vantage)",
+        "minIncome": 80000,
+        "minIncomeNote": "World Card tier; MileLion notes this threshold is 'not strictly enforced' in practice - not verifiable in the T&C PDF, which doesn't state income requirements",
+        "milelionUrl": "https://milelion.com/2026/08/11/review-dbs-womans-world-card/",
+        "milelionLastUpdated": "2026-08-11",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "none on rates/caps - verified via T&C math exactly matches MileLion's '4 mpd on $1,000/month online spend'. Min income and annual fee waiver removal date sourced from MileLion, not stated in this T&C PDF (which only covers rewards mechanics, not eligibility/fees)"
+      }
     },
     {
       "id": "dbs-chromo",

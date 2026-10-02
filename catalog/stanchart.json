@@ -40,7 +40,39 @@
           "label": "Journey Credit Card Terms and Conditions",
           "url": "https://av.sc.com/sg/content/docs/sg-journey-credit-card-terms-and-conditions.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.2,
+          "unit": "mpd",
+          "note": "local spend; 3 Rewards Points/$1 = 1.2 KrisFlyer Miles"
+        },
+        "bonusCategories": [
+          {
+            "category": "overseas/FCY spend",
+            "rate": 2,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "5 Rewards Points/$1, no stated cap"
+          },
+          {
+            "category": "online groceries, food delivery, transport (local)",
+            "rate": 3,
+            "unit": "mpd",
+            "cap": 1000,
+            "capNote": "S$1,000/month qualifying spend cap (4,500 Rewards Points cap on the bonus 4.5RP/$1 portion)"
+          }
+        ],
+        "milesConversionNote": "2.5 Rewards Points = 1 KrisFlyer Mile, consistent across local/overseas/bonus tiers; only 2 transfer partners (KrisFlyer, Asia Miles), min transfer block 10,000 Rewards Points-equivalent",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/08/30/review-standard-chartered-journey-card/",
+        "milelionLastUpdated": "2026-08-30",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "Base/overseas/bonus mpd and S$1,000 cap match T&C exactly. T&C does not state a first-year fee waiver condition. Min income sourced from product page/MileLion, not present in the T&C document."
+      }
     },
     {
       "id": "sc-priority-visa-infinite-card",

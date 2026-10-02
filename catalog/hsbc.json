@@ -29,7 +29,39 @@
           "label": "HSBC Revolution Credit Card Reward Points Terms and Conditions",
           "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 0.4,
+          "unit": "mpd",
+          "note": "1 base Reward Point per S$1 on all qualifying spend outside bonus categories"
+        },
+        "bonusCategories": [
+          {
+            "category": "contactless/online spend in travel, dept stores/retail, dining (excl. hotel), transport, membership clubs",
+            "rate": 4,
+            "unit": "mpd",
+            "cap": 1000,
+            "capNote": "S$1,000/month spend cap (9,000 bonus points) for regular cardholders"
+          },
+          {
+            "category": "same categories, with S$50,000 ADB in HSBC Everyday Global Account",
+            "rate": 8,
+            "unit": "mpd",
+            "cap": 1200,
+            "capNote": "S$1,200/month spend cap (22,800 bonus points) for Enhanced Cardholders"
+          }
+        ],
+        "milesConversionNote": "HSBC Reward Points to airline/hotel miles conversion per HSBC Rewards T&C; best partners ~2.5 points:1 mile (0.4 mi/pt), consistent with the 4/8 mpd headline rates. No annual fee on this card.",
+        "annualFee": 0,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/02/13/hsbc-revolution-4-mpd-on-travel-contactless-enhanced-bonus-cap-extended-till-feb-2026/",
+        "milelionLastUpdated": "2026-02-13",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "MileLion's article described a temporary promo cap of S$1,500/month (through 31 Mar 2026); current official T&C (effective 1 Apr 2026) confirms the cap has reverted to the standard S$1,000 (S$1,200 Enhanced) - the promo has lapsed."
+      }
     },
     {
       "id": "hsbc-liveplus",
@@ -40,7 +72,39 @@
           "label": "HSBC Live+ Credit Card Cashback Programme Terms and Conditions",
           "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "cashback",
+        "baseRate": {
+          "value": 0.3,
+          "unit": "pct",
+          "note": "flat rate on eligible dining/shopping/entertainment/petrol if min spend not met; 0.3% on all other spend regardless"
+        },
+        "bonusCategories": [
+          {
+            "category": "dining/shopping/entertainment/petrol (min spend met)",
+            "rate": 5,
+            "unit": "pct",
+            "cap": 250,
+            "capNote": "S$250/quarter cap; min spend S$600/month for all 3 months in quarter (S$1,000 for first quarter as new cardholder)"
+          },
+          {
+            "category": "dining/shopping/entertainment only, new-to-Live+ cardholders issued 1 Apr 2025-31 Mar 2027, first 2 quarters",
+            "rate": 3,
+            "unit": "pct",
+            "cap": 250,
+            "capNote": "additional 3% stacks with base 5% for total 8%, same S$250/quarter cap and min spend rules"
+          }
+        ],
+        "milesConversionNote": "",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": 12500,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2024/06/21/new-hsbc-live-card-8-cashback-on-dining-entertainment-and-shopping/",
+        "milelionLastUpdated": "2024-06-21",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "MileLion's 2024 article implied the 8% bonus only ran through end of 2024; current official T&C (effective 13 Mar 2026) shows the additional 3% has been extended to all cardholders issued up to 31 Mar 2027 - MileLion's article is outdated on duration, mechanics/rates/caps otherwise accurate."
+      }
     },
     {
       "id": "hsbc-travelone",
@@ -51,7 +115,32 @@
           "label": "HSBC TravelOne Credit Card Reward Points Programme Terms and Conditions",
           "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.2,
+          "unit": "mpd",
+          "note": "local SGD spend"
+        },
+        "bonusCategories": [
+          {
+            "category": "foreign currency spend",
+            "rate": 2.4,
+            "unit": "mpd",
+            "cap": null,
+            "capNote": "no cap stated; T&C specifies 5 Reward Points per S$1 FCY vs 2 Points per S$1 local"
+          }
+        ],
+        "milesConversionNote": "HSBC Reward Points convert to airline/hotel miles via a separate HSBC Rewards redemption T&C; KrisFlyer rate is 30,000 points : 10,000 miles (3.33 pts/mile) post Jan 2025 devaluation; best partners at 25,000:10,000.",
+        "annualFee": 196.2,
+        "feeWaiverMinSpend": 25000,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/03/20/review-hsbc-travelone-card/",
+        "milelionLastUpdated": "2026-03-20",
+        "crossCheckedWithTnc": true,
+        "discrepancyNote": "T&C states base points as 2 pts/$1 local and 5 pts/$1 FCY (not miles directly); the 1.2/2.4 mpd figures depend on a points-to-miles conversion ratio defined in a separate HSBC Rewards T&C not contained in this PDF, so the FCY mpd figure could not be independently verified against this document alone."
+      }
     },
     {
       "id": "hsbc-advance",

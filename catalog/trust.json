@@ -18,7 +18,39 @@
           "label": "Trust Freedom Credit Card Product Terms",
           "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/"
         }
-      ]
+      ],
+      "rewards": {
+        "type": "miles",
+        "baseRate": {
+          "value": 1.3,
+          "unit": "mpd",
+          "note": "Miles reward mode, local AND foreign currency spend alike; card is switchable between Miles/Cashback/Bonus-Cashback/Stockback modes quarterly"
+        },
+        "bonusCategories": [
+          {
+            "category": "chosen bonus category (Bonus Cashback mode only, not miles mode)",
+            "rate": 15,
+            "unit": "pct",
+            "cap": 250,
+            "capNote": "S$250/quarter cap; MileLion computes effective blended max around 5.2% given the cap"
+          },
+          {
+            "category": "stockback (alternate mode)",
+            "rate": 3,
+            "unit": "pct",
+            "cap": null,
+            "capNote": "3% until 31 Dec 2026, dropping to 2% thereafter, paid as fractional US stock"
+          }
+        ],
+        "milesConversionNote": "1:1 to Max Miles or KrisFlyer via HeyMax; S$27.25 transfer fee, 1-mile minimum transfer, instant processing; 0% FX fee",
+        "annualFee": 0,
+        "feeWaiverMinSpend": null,
+        "minIncome": 30000,
+        "milelionUrl": "https://milelion.com/2026/09/24/review-trust-freedom-card/",
+        "milelionLastUpdated": "2026-09-24",
+        "crossCheckedWithTnc": false,
+        "discrepancyNote": "Trust's published legal T&C page defers all rates/fees to a separate Key Facts Sheet rather than stating them itself, so this entry is cross-checked against that Key Facts Sheet (sourced via search) rather than the catalog's product-terms URL directly - crossCheckedWithTnc:false for that reason. No discrepancies found vs MileLion."
+      }
     },
     {
       "id": "trust-link",
